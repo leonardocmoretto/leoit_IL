@@ -1,0 +1,57 @@
+#navbar {
+  height: 215px;
+}
+
+#navbar-container {
+  flex-direction: column;
+  padding: 20px 0;
+}
+
+#navbar-items {
+  flex-direction: column;
+  text-align: center;
+  width: fit-content;
+}
+
+#navbar-items li:nth-child(2) {
+  border-top: 1px solid #333;
+  border-bottom: 1px solid #333;
+}
+
+#sobre-container {
+  grid-template-columns: 1fr;
+}
+
+.sobre {
+  width: fit-content;
+}
+
+#o_que_fazemos-container {
+  grid-template-columns: 1fr;
+}
+
+#o_que_fazemos-container .o_que_fazemos :nth-child(2) {
+  margin: 15px 0;
+}
+
+#casos-container {
+  grid-template-columns: 1fr;
+}
+
+#testimonials-container {
+  grid-template-columns: 1fr;
+}
+
+.testimonial {
+  flex-direction: column;
+  text-align: center;
+}
+
+#gallery-container {
+  grid-template-columns: 1fr;
+}
+
+.gallery-image {
+  width: 150%;
+}
+
